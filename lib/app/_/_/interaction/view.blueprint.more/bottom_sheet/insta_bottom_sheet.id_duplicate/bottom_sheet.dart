@@ -7,7 +7,6 @@ import '_/view.dart';
 void NewBottomSheet(BuildContext context) async {
   await showBarModalBottomSheet(
       // barrierColor: Colors.black54,
-      //배경색
       expand: false,
       context: context,
       backgroundColor: Colors.transparent,
