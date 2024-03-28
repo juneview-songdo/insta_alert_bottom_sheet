@@ -3,7 +3,7 @@ description: "JuneView Template"
 #publish_to: 'none'
 repository: https://github.com/juneview-songdo/insta_alert_bottom_sheet
 
-version: 1.2.0
+version: 1.2.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
