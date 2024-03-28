@@ -14,15 +14,15 @@ class NewView extends StatefulWidget {
 class NewViewState extends State<NewView> with StateMother {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
-      body: Text("NewView")
+    return Container(
+      color: Colors.blue,
+      // floatingActionButton: FloatingActionButtonKit(),
+      child: const Text("NewView")
           .textStyle(Theme.of(context).textTheme.displaySmall!)
           .fontWeight(FontWeight.bold)
           .textAlignment(TextAlign.center)
           .center(),
-      floatingActionButton: FloatingActionButtonKit(),
-    );
+    ).height(300).width(1.sw);
   }
 }
 
